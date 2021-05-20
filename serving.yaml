@@ -7,7 +7,7 @@ spec:
  template:
   spec:
    containers:
-    - image: index.docker.io/reoring/helloworld-go:v1
+    - image: index.docker.io/reoring/helloworld-go:v4
       env:
         - name: TARGET
           value: "Go Sample v1"
